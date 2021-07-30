@@ -26,6 +26,8 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+Additionally i bootstrapped application with migration and typeorm for postgresql
+
 ## Installation
 
 ```bash
@@ -43,6 +45,12 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+
+# generate migration
+$ npm run typeorm:migration:generate migration-name
+
+# run migrations
+$ npm run typeorm:migration:run
 ```
 
 ## Test
